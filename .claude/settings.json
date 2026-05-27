@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(xargs -I{} sh -c 'node --input-type=module < /dev/null 2>&1; echo {}')",
+      "Bash(npx vite *)",
+      "Bash(node -e ' *)",
+      "Bash(git branch *)"
+    ]
+  }
+}
